@@ -1,0 +1,34 @@
+body {
+    background-color: lightblue;
+}
+header > h1 {
+    text-align: center;
+    color: white;
+}
+section {
+    background-color: white;
+    height: 300px;
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2%;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.451);
+}
+div#hora {
+    text-align: center;
+    padding-top: 20px;
+}
+div#imagem {
+    text-align: center;
+}
+div#imagem > img {
+    margin-top: 25px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+footer {
+    text-align: center;
+    color: white;
+    font-style: italic;
+}

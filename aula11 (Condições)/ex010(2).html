@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+</head>
+<body>
+    Digite o seu país: <input type="text" name="país" id="país">
+    <input type="button" value="enter" onclick="enter()">
+    <div id="res">
+
+    </div>
+
+    <script>
+        function enter() {
+            var p = document.getElementById('país')
+            var res = document.getElementById('res')
+            if (p == 'Brasil') {
+               res.innerHTML('Brasileiro!')
+            } else {
+                res.innerHTML('Estrangeiro!')
+            }
+        }
+    </script>
+</body>
+</html>
