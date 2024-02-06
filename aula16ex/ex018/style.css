@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(0, 162, 255);
+}
+header > h1 {
+    color: white;
+    text-align: center;
+    font-size: 2.5em;
+}
+section {
+    background-color: white;
+    height: auto;
+    width: 500px;
+    padding-bottom: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2%;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.253);
+}
+section > p {
+    padding-top: 15px;
+    padding-left: 8px;
+    font-size: 18px;
+}
+select {
+    width: 200px;
+}
+div#res {
+    padding-left: 10px;
+}
+div#res > p {
+    padding-left: 10px;
+    font-size: 1.2em;
+    margin-bottom: 0px;
+}
+footer {
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
