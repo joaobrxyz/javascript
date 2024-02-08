@@ -10,7 +10,7 @@ section {
     background-color: white;
     height: auto;
     width: 500px;
-    padding-bottom: 7px;
+    padding-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 2%;
@@ -24,7 +24,7 @@ section > p {
 select {
     width: 200px;
 }
-div#res {
+div {
     padding-left: 10px;
 }
 div#res > p {
