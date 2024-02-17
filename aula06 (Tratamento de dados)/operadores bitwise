@@ -1,0 +1,10 @@
+let n1 = 10
+let n2 = 11
+//let res = n1 & n2 // Operador de equivalência
+
+//let res = n1 | n2 // Independente da equivalência, se tiver um bit 1, ele retorna 1
+
+//let res = n1 ^ n2 // Se tiver um bit 1 que não tenha equivalência, ele retorna 1.
+
+let res = n1 << 1 //Deslocar um bit pra esquerda, ele dobrará o número
+console.log(res)
