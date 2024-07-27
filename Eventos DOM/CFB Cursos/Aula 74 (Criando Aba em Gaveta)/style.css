@@ -1,0 +1,92 @@
+@charset "UTF-8";
+* {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    box-sizing: border-box;
+    font-size: large;
+}
+.calc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    position: absolute;
+    left: -250px;
+    transition: all 0.2s;
+}
+.calc_exibir {
+    left: 0px !important;
+    transition: all 0.2s;
+}
+.calc_principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    background-color: #eee;
+    border: 3px solid #bbb;
+    width: 250px;
+    border-radius: 5px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.59);
+}
+
+/* TÍTULO */
+.div_nome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+}
+.div_teclas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    flex-flow: wrap;
+}
+.tecla {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #aaa;
+    border: 3px solid #888;
+    border-radius: 50%;
+    font-weight: bold;
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+    margin: 3px;
+}
+.teclaOp {
+    background-color: #f44 !important;
+    border-color: #800 !important;
+}
+/* DISPLAY */
+.div_display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+}
+.display {
+    width: 250px;
+    height: 60px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: #8a8;
+    text-align: right;
+    padding: 5px;
+    font-family: monospace;
+    font-size: 1.5em;
+}
+.calc_aba {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 50px;
+    background-color: rgba(128, 128, 128, 0.2);
+    border-radius: 0px 8px 8px 0px;
+    cursor: pointer;
+}
