@@ -44,7 +44,7 @@ input[type='number'], #num_objetos {
     width: 100%;
     min-height: 100vh;
     min-height: fill-available;
-    min-height: -wekbit-fill-available;
+    min-height: -webkit-fill-available;
     background-color: #eee;
     border: 2px solid #000;
     border-radius: 5px;
